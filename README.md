@@ -14,6 +14,8 @@
 ## Project Outline
   * The entire project is built with common Ruby tools and Selenium WebDriver with Chrome as the test browser.
   * Test configuration can be found in `/spec/spec_helper.rb`.
+  * Tests are in `/spec/features/`.
+  * Page objects are in `/spec/page_objects/`.
   * `rspec` is the testing framework.
   * `capybara` is used to interact with the test site and drive Selenium WebDriver.
   * `site_prism` is used to create page objects for the tests.
