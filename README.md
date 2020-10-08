@@ -3,6 +3,7 @@
 ## Setup Instructions
   * Verify that you have the latest version of Chrome installed.
   * Install or update ChromeDriver (`brew cask install chromedriver` or `brew cask upgrade chromedriver` on OSX with homebrew).
+  * Ruby version `>= 2.5.0` is required. Update your Ruby version if needed.
   * Clone this repo and `cd` into it.
   * Run `bundle install` in the repo root.
 
