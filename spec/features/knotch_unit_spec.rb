@@ -91,7 +91,7 @@ RSpec.feature 'Knotch Unit spec', :type => :feature do
       end
     end
 
-    scenario 'selecting Extremely Negative shows Doom output' do
+    scenario "selecting Extremely Negative shows 'Doom' output" do
       expect(knotch_unit_page).to be_displayed
       expect(knotch_unit_page.iframe_element).to be_visible
 
@@ -105,7 +105,7 @@ RSpec.feature 'Knotch Unit spec', :type => :feature do
       end
     end
 
-    scenario 'selecting Negative shows Doom output' do
+    scenario "selecting Negative shows 'Doom' output" do
       expect(knotch_unit_page).to be_displayed
       expect(knotch_unit_page.iframe_element).to be_visible
 
@@ -119,7 +119,7 @@ RSpec.feature 'Knotch Unit spec', :type => :feature do
       end
     end
 
-    scenario 'selecting Neutral shows give it another shot' do
+    scenario "selecting Neutral shows 'Give it another shot' output" do
       expect(knotch_unit_page).to be_displayed
       expect(knotch_unit_page.iframe_element).to be_visible
 
@@ -133,7 +133,7 @@ RSpec.feature 'Knotch Unit spec', :type => :feature do
       end
     end
 
-    scenario 'selecting Positive shows Great ty output' do
+    scenario "selecting Positive shows 'Great ty' output" do
       expect(knotch_unit_page).to be_displayed
       expect(knotch_unit_page.iframe_element).to be_visible
 
@@ -147,7 +147,7 @@ RSpec.feature 'Knotch Unit spec', :type => :feature do
       end
     end
 
-    scenario 'selecting Extremely Positive shows Great ty output' do
+    scenario "selecting Extremely Positive shows 'Great ty' output" do
       expect(knotch_unit_page).to be_displayed
       expect(knotch_unit_page.iframe_element).to be_visible
 
